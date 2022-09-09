@@ -1,0 +1,26 @@
+{
+  "name": "pactumjs-automation",
+  "version": "1.0.0",
+  "description": "REST and GraphQL with PactumJS",
+  "main": "index.js",
+  "type": "commonjs",
+  "scripts": {
+    "test": "mocha  --require ./src/tests/hooks.js ./src/tests/*.spec.js"
+  },
+  "keywords": [
+    "Rest",
+    "Graphql",
+    "pactumjs",
+    "api"
+  ],
+  "author": "Mohd Jeeshan",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^7.5.0",
+    "chai": "^4.3.6",
+    "mocha": "^10.0.0",
+    "pactum": "^3.2.1",
+    "pactum-json-reporter": "^1.0.2",
+    "rosie": "^2.1.0"
+  }
+}
